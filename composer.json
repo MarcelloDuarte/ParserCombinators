@@ -1,0 +1,17 @@
+{
+    "require": {
+        "phunkie/phunkie": "0.6.0"
+    },
+    "require-dev": {
+        "kahlan/kahlan": "^3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "": ["src"]
+        },
+        "files": [
+            "src/Md/ParserCombinators/Functions/parsers.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
